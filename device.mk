@@ -12,7 +12,7 @@ $(call inherit-product, vendor/oneplus/guacamole/guacamole-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-derp
+    $(LOCAL_PATH)/overlay-cherish
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -28,6 +28,9 @@ PRODUCT_PACKAGES += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
+    
+# fod
+EXTRA_FOD_ANIMATIONS := true
 
 # Prebuilts
 PRODUCT_PACKAGES += \
