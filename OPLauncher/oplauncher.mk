@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/xiaomi/raphael/OPLauncher
+LOCAL_PATH := device/oneplus/guacamole/OPLauncher
 
 PRODUCT_PACKAGES += \
     OPLauncherReleases \
