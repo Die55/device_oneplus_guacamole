@@ -47,8 +47,3 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     OnePlus7ProWifiOverlay
     
-# OPLauncher
-ifeq ($(BUILD_WITH_OPLAUNCHER),true)
-$(call inherit-product, $(LOCAL_PATH)/OPLauncher/oplauncher.mk)
-endif
-
